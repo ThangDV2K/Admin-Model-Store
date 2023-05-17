@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>API Test</title>
+</head>
+<body>
+  <ul id="category-list"></ul>
+  
+  <script>
+    fetch('https://localhost:7103')
+      .then(response => response.json())
+      .then(data => {
+        const categoryList = document.getElementById('category-list');
+        
+        data.forEach(category => {
+          const listItem = document.createElement('li');
+          listItem.innerText = category.name;
+          categoryList.appendChild(listItem);
+        });
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>

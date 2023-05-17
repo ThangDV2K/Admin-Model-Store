@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>AdminUX-PRO | Admin Dashboard HTML Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta
+        content="Worlds Best Admin UX Dashbaoard PRO version for bootstrap template, Select, Calandar, Report, Charts, Tables etc."
+        name="description" />
+    <meta content="" name="author" />
+    <link rel="shortcut icon" href="../Assets/images/Logo.png">
+
+    <!-- g fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;display=swap" rel="stylesheet">
+    <!-- g fonts style ends -->
+
+    <!-- Vendor or 3rd party style -->
+
+    <!-- material icons -->
+    <link href="../Assets/vendor/material-icons/material-icons.css" rel="stylesheet">
+    <!-- flags icons -->
+    <link href="../Assets/vendor/flags/css/flag-icon.min.css" rel="stylesheet">
+    <!-- daterange picker -->
+    <link href="../Assets/vendor/daterangepicker-master/daterangepicker.css" rel="stylesheet">
+    <!-- vector map -->
+    <link href="../Assets/vendor/jquery-toast-plugin-master/dist/jquery.toast.min.css" rel="stylesheet">
+    <!-- Toast message -->
+    <link href="../Assets/vendor/jquery-jvectormap/jquery-jvectormap-2.0.3.css" rel="stylesheet">
+    <!-- dataTables picker -->
+    <link href="../Assets/vendor/DataTables-1.10.18/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="../Assets/vendor/DataTables-1.10.18/css/responsive.dataTables.min.css" rel="stylesheet">
+
+    <!-- Vendor or 3rd party style ends -->
+
+    <!-- Customized template style mandatory -->
+    <link href="../Assets/css/cssadmin.css" rel="stylesheet" id="stylelink">
+    <!-- Customized template style ends -->
+</head>
+
+<!-- Head tag ends -->
+
+<!-- Body -->
+
+<body class="template-bg sidemenu-open">
+
+    <!-- Sidebar starts -->
+    <div class="sidebar">
+        <!-- Logo sidebar -->
+        <a href="#" class="logo">
+            <img src="https://maxartkiller.com/website/AdminuxPRO/HTML/assets/img/logoicon.svg" alt=""
+                class="logo-icon">
+            <div class="logo-text">
+                <h5 class="fs22 mb-0">AdminUX <sup class="badge badge-danger">PRO</sup></h5>
+                <p class="text-uppercase fs11">Admin Dashboard</p>
+            </div>
+        </a>
+        <!-- Logo sidebar ends -->
+
+        <!-- Navigation menu sidebar-->
+        <h6 class="subtitle fs11">Navigation Menu</h6>
+        <ul class="nav flex-column ">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Dashboard.html"><i
+                        class="material-icons icon">dashboard</i><span>Dashboard</span></a>
+
+            </li>
+        </ul>
+        <h6 class="subtitle fs11">Services</h6>
+        <ul class="nav flex-column">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)"><i
+                        class="material-icons icon">games</i><span>Applications</span> <i
+                        class="material-icons arrow">expand_more</i></a>
+                <div class="nav flex-column">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="inbox.html"><span>Email</span></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="nav flex-column">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)"><i
+                        class="material-icons icon">library_books</i><span>Forms</span> <i
+                        class="material-icons arrow">expand_more</i></a>
+                <div class="nav flex-column">
+                    <div class="nav-item"><a class="nav-link" id="Products" href="FormProduct.html"><span>Products</span></a></div>
+                    <div class="nav-item"><a class="nav-link" id="Category" href="FormCategory.html"><span>Category</span></a></div>
+                    <div class="nav-item"><a class="nav-link" id="Attribute" href="FormAttribute.html"><span>Attribute</span></a></div>
+                    <div class="nav-item"><a class="nav-link" id="Logictis" href="FormLogictis.html"><span>Logictis</span></a></div>
+                </div>
+            </li>
+        </ul>
+        <ul class="nav flex-column">
+            <li class="nav">
+                <div class="nav flex-column">
+                    <div class="nav-item"><a class="nav-link" href="DataProducts.html"><i
+                        class="material-icons icon bi bi-tag"></i><span>Data Products</span></a></div>
+                    <div class="nav-item"><a class="nav-link" href="footable.html"><span>FooTable</span></a></div>
+                    <div class="nav-item"><a class="nav-link" href="table.html"><span>Bootstrap</span></a></div>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Navigation menu sidebar ends -->
+        <br>
+        <!-- Upgrade notification ends -->
+
+        <!-- Setting link -->
+        <ul class="nav flex-column setting">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)"><i
+                        class="material-icons icon">settings_applications</i><span>Settings</span></a>
+                <div class="nav flex-column">
+                    <div class="nav-item"><a class="nav-link" href="profile-setting.html"><span>Profile
+                                Setting</span></a></div>
+                    <div class="nav-item"><a class="nav-link" href="privacy-setting.html"><span>Privacy</span></a></div>
+                    <div class="nav-item"><a class="nav-link" href="email.html"><span>Email</span></a></div>
+                </div>
+            </li>
+        </ul>
+        <!-- Setting link -->
+    </div>
+    <!-- Sidebar ends -->
+
+    <!-- wrapper starts -->
+    <div class="wrapper">
+        <div class="content shadow-sm">
+
+            <!-- Main container starts -->
+            <div class="container main-container" id="main-container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                        <div class="card border-0 shadow-sm overflow-hidden mb-4">
+                            <div class="card-body py-0">
+                                <div class="row">
+                                    <div class="col py-2 pr-0">
+                                        <p>Total Profit</p><br>
+                                        <h4 class="font-weight-light mb-0"><small>$</small> 25,410</h4>
+                                    </div>
+                                    <div class="col-auto bg-primary  text-white py-2">
+                                        <p class="mb-0"><small>+20%<span class="text-mute d-block">Quarter
+                                                    3</span></small></p>
+                                        <div class="summary-one"><canvas id="summary-one"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                        <div class="card border-0 shadow-sm overflow-hidden mb-4">
+                            <div class="card-body py-0">
+                                <div class="row">
+                                    <div class="col py-2 pr-0">
+                                        <p>Total Loss</p><br>
+                                        <h4 class="font-weight-light mb-0"><small>$</small> 15,410</h4>
+                                    </div>
+                                    <div class="col-auto bg-danger  text-white py-2">
+                                        <p class="mb-0"><small>-20%<span class="text-mute d-block">Oil
+                                                    Selling</span></small></p>
+                                        <div class="summary-one"><canvas id="summary-two"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                        <div class="card border-0 shadow-sm overflow-hidden mb-4">
+                            <div class="card-body py-0">
+                                <div class="row">
+                                    <div class="col py-2">
+                                        <p>Awareness<br><span class="text-template-primary">Frequency</span></p>
+                                        <h4 class="font-weight-light mb-0">76.98%</h4>
+                                    </div>
+                                    <div class="col-auto pl-0 py-2 align-self-center">
+                                        <div class="progress-summary">
+                                            <p class="mb-0">+75.98%<br><small><span
+                                                        class="text-mute d-block small">Male-Female</span></small></p>
+                                            <div class="circle-progress" id="circle-green"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                        <div class="card border-0 shadow-sm overflow-hidden mb-4">
+                            <div class="card-body py-0">
+                                <div class="row">
+                                    <div class="col py-2 pr-0">
+                                        <p>Total Deals</p><br>
+                                        <h4 class="font-weight-light mb-0">15410</h4>
+                                    </div>
+                                    <div class="col-auto border-left-dashed py-2">
+                                        <p class="mb-0"><small>15%<span class="text-mute d-block">Oil
+                                                    Selling</span></small></p>
+                                        <div id="summarysparklines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chart Start -->
+                <div class="row" id="chart">
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                        <div class="card shadow-sm border-0 mb-4">
+                            <div class="card-header border-0 ">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="card-title">Mix Chart<br><small class="text-template-primary-light">Chart js Chart</small></h6>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class=" float-right text-right">
+                                            <button class="btn btn-link btn-sm"><i class="material-icons md-24 template-primary">refresh</i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body ">
+                                <div class="h-320">
+                                    <canvas id="mixchartfull"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chart End -->
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md text-center text-md-left align-self-center">
+                        <p>All rights reserved by <a href="#">Maxartkiller</a></p>
+                    </div>
+                    <div class="col-12 col-md-auto text-center text-md-right">
+                        <ul class="nav justify-content-center justify-md-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Terms of use</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactus.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- wrapper ends -->
+    <!-- Theme style picker modal window and options ends -->
+
+    <!-- Global js mandatory -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../Assets/js/popper.min.js"></script>
+    <script src="../Assets/vendor/bootstrap/js/bootstrap.min.js">
+
+    </script>
+    <script src="../Assets/vendor/cookie/jquery.cookie.js"></script>
+    <!-- Global js ends -->
+
+    <!-- Vendor or 3rd party js -->
+
+    <!-- date range picker -->
+    <script src="../Assets/vendor/daterangepicker-master/moment.min.js"></script>
+    <script src="../Assets/vendor/daterangepicker-master/daterangepicker.js"></script>
+    <!-- Chart js -->
+    <script src="../Assets/vendor/chartjs/Chart.min.js"></script>
+    <script src="../Assets/vendor/chartjs/utils.js"></script>
+    <!-- Circular progress js  -->
+    <script src="../Assets/vendor/circle-progress/circle-progress.min.js"></script>
+    <!-- Sparklines js  -->
+    <script src="../Assets/vendor/sparklines/jquery.sparkline.min.js"></script>
+    <!-- DataTables js  -->
+    <script src="../Assets/vendor/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="../Assets/vendor/DataTables-1.10.18/js/dataTables.responsive.min.js"></script>
+    <script src="../Assets/vendor/DataTables-1.10.18/js/dataTables.bootstrap4.min.js"></script>
+    <!-- vector maps js  -->
+    <script src="../Assets/vendor/jquery-jvectormap/jquery-jvectormap.js"></script>
+    <script src="../Assets/vendor/jquery-jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <!-- vector maps js  -->
+    <script src="../Assets/vendor/jquery-toast-plugin-master/dist/jquery.toast.min.js"></script>
+
+        <!-- Chart Progress -->
+        <script src="../assets/vendor/chartjs/Chart.min.js"></script>
+        <script src="../assets/vendor/chartjs/utils.js"></script>
+        <script src="../assets/vendor/chartjs/chart-js-data.js"></script>
+
+    <!-- Vendor or 3rd party js ends -->
+
+    <!-- Customized template js mandatory -->
+    <script src="../Assets/js/admin.js"></script>
+    <!-- Customized template js ends -->
+
+    <!-- theme picker -->
+    <script src="../Assets/js/style-picker.js"></script>
+    <!-- theme picker ends -->
+
+    <!-- Customized page level js -->
+    <script src="../Assets/js/production-dashboard.js"></script>
+    <script>
+    </script>
+    <!-- Customized page level js ends -->
+</body>
+
+<!-- Body ends -->
+
+
+<!-- Mirrored from maxartkiller.com/website/AdminuxPRO/HTML/pages/dashboard-production.html by  Website Copier/3.x [XR&CO'2014], Mon, 23 Nov 2020 07:20:52 GMT -->
+
+</html>

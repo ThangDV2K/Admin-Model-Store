@@ -1,0 +1,42 @@
+.form-import_data{
+    position: relative;
+    background-color: #fbfdfd;
+    width: 750px;
+    height: auto;
+    margin: 30px auto;
+    margin-top: 0 !important;
+    padding: 30px;
+}
+
+.list-inp li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #A56D10;
+    font-style: normal;
+    font-weight: 400;
+}
+.content-inp input {
+    padding: 3px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    background-color:#ffe4b9;
+    outline: none;
+}
+.content-inp input:focus{
+    border: 2px solid #00bcd4;
+}
+.list-inp li label {
+    width: 165px; /* Điều chỉnh độ rộng cho label tùy ý */
+    padding-right: 10px;
+}
+.content-menu h3 {
+    font-family: Rochester;
+    font-size: 36px;
+    color: #A56D10;
+    font-style: normal;
+    font-weight: 400;
+}

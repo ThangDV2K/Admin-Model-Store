@@ -1,0 +1,17 @@
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\APIprojectModelStore.exe
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\APIprojectModelStore.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\APIprojectModelStore.deps.json
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\APIprojectModelStore.runtimeconfig.json
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\APIprojectModelStore.pdb
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Lap1CShape\APIprojectModelStore\APIprojectModelStore\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
